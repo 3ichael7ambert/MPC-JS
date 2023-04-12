@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MPC</title>
+
+  <link rel="stylesheet" href="style.css">  
+  
+</head>
+<body>
+  
+
+  
+  <div id="music-animation">
+  <canvas id="myCanvas"></canvas>
+</div>
+
+<!-- MPC -->
+<div class="mpc-container">
+<div class="mpc-drum-pad">
+  <div class="pad-row">
+    <div class="pad" id="pad1"></div>
+    <div class="pad" id="pad2"></div>
+    <div class="pad" id="pad3"></div>
+    <div class="pad" id="pad4"></div>
+  </div>
+  <div class="pad-row">
+    <div class="pad" id="pad5"></div>
+    <div class="pad" id="pad6"></div>
+    <div class="pad" id="pad7"></div>
+    <div class="pad" id="pad8"></div>
+  </div>
+  <div class="pad-row">
+    <div class="pad" id="pad9"></div>
+    <div class="pad" id="pad10"></div>
+    <div class="pad" id="pad11"></div>
+    <div class="pad" id="pad12"></div>
+  </div>
+  <div class="pad-row">
+    <div class="pad" id="pad13"></div>
+    <div class="pad" id="pad14"></div>
+    <div class="pad" id="pad15"></div>
+    <div class="pad" id="pad16"></div>
+  </div>
+</div>
+
+<button id="toggle-autoplay">Autoplay Off</button>
+<button id="toggle-load">Load Rhythm</button>
+<button id="toggle-stop">Stop</button>
+
+</div>
+
+<audio id="pad1-sound" src="kick.wav"></audio>
+<audio id="pad2-sound" src="snare.wav"></audio>
+<audio id="pad3-sound" src="hh-open.wav"></audio>
+<audio id="pad4-sound" src="hh-closed.wav"></audio>
+<audio id="pad5-sound" src="hh-pedal.wav"></audio>
+<audio id="pad6-sound" src="pad6.mp3"></audio>
+<audio id="pad7-sound" src="pad7.mp3"></audio>
+<audio id="pad8-sound" src="pad8.mp3"></audio>
+<audio id="pad9-sound" src="pad9.mp3"></audio>
+<audio id="pad10-sound" src="pad10.mp3"></audio>
+<audio id="pad11-sound" src="pad11.mp3"></audio>
+<audio id="pad12-sound" src="pad12.mp3"></audio>
+<audio id="pad13-sound" src="pad13.mp3"></audio>
+<audio id="pad14-sound" src="pad14.mp3"></audio>
+<audio id="pad15-sound" src="pad15.mp3"></audio>
+<audio id="pad16-sound" src="pad16.mp3"></audio>
+
+
+
+
+
+  
+  
+
+
+<script src="music-bg.js"></script>
+<script src="mpc.js"></script>
+
+</body>
+</html>
